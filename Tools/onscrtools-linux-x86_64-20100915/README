@@ -1,0 +1,42 @@
+ONScripter-Tools:
+
+All tools are meant to be run from the command line.
+
+nscdec.exe: nscdec nsc_file [out_file]
+For converting a packaged script file (e.g. "nscript.dat") to a text script
+("result.txt" by default)
+
+
+nscmake.exe: nscmake [-o nsc_file] in_file(s)
+For converting text script file(s) to a packaged script file
+("nscript.dat" by default); using wildcard pattern "[0-9][0-9].txt" for
+in_file(s) works well for merging a set of numbered scripts.
+
+
+nsadec.exe: nsadec [-offset num] [-o out_dir] arc_file
+For extracting files from an nsa archive file (e.g. "arc.nsa");
+will place the files under directory out_dir, if provided.
+'-offset' replaces the old '-ns2' and '-ns3' options (rarely needed).
+
+
+sardec.exe: sardec [-o out_dir] arc_file
+For extracting files from a sar archive file (e.g. "arc.sar");
+will place the files under directory out_dir, if provided
+
+
+nsamake.exe: nsamake arc_file [-e] -d in_dir
+             nsamake arc_file [-e] in_file(s)
+Creates an nsa archive as arc_file (e.g. "arc.nsa").
+The usage formats work the same as with ns2make, except that when
+the option -e is provided, it will attempt to compress BMP and WAV files
+in the archive using NBZ encoding.
+
+
+----------
+
+ONScripter-Tools are maintained by "Uncle" Mion Sonozaki, who may be
+contacted on the web at http://onscripter.denpa.mobi or by email
+at UncleMion@gmail.com.
+
+ONScripter-Tools are licensed under the GNU Public License;
+see GPL.txt for further information.
