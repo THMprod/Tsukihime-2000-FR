@@ -1,0 +1,30 @@
+*start
+;  ; ////////////////////
+;  ; // (c) Galladite 2024
+;  ; // For questions, issues, or a copy of the original code, contact: galladite@yandex.com
+;  ; // Multi-Language Patch  (Start Block Start)
+;  ; ////////////////////
+if %current_lang != 0 goto *after_langcheck
+rmode 0
+locate 8,4
+`Select language:
+locate 6,5
+言葉を選択してください
+locate 10,7
+selnum %tmp1,"日本語","English","Français" ; Hardcoded values would be better, but oh well
+add %tmp1,1
+mov %current_lang,%tmp1
+textclear
+;enginereset
+; There's currently a sound issue caused by enginereset :(
+; -Galladite
+
+*after_langcheck
+;  ; ////////////////////
+;  ; // (c) Galladite 2024
+;  ; // For questions, issues, or a copy of the original code, contact: galladite@yandex.com
+;  ; // Multi-Language Patch  (Start Block end)
+;  ; ////////////////////
+
+
+end

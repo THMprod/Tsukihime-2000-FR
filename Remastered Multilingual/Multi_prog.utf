@@ -1,0 +1,58 @@
+;  ; ////////////////////
+;  ; // (c) Galladite 2024
+;  ; // For questions, issues, or a copy of the original code, contact: galladite@yandex.com
+;  ; // Multi-Language Patch (Post Script Block start)
+;  ; ////////////////////
+; Takes language and text. Only prints text if language is currently selected.
+*text
+getparam %tmp1,$lang_text
+if %current_lang != %tmp1 return
+
+*text_loop
+
+; Check for wait char. Currently, a primitive check, but should work for this script.
+mov $wait_char,""
+mov $tmp3,$lang_text
+
+splitonce $lang_text,"@",$tmp2
+if $lang_text!=$tmp3 mov $wait_char,"@" : goto *text_print
+
+mov $lang_text,$tmp3 ; Reset to check again
+splitonce $lang_text,"\",$tmp2
+if $lang_text!=$tmp3 mov $wait_char,"\" : goto *text_print
+
+; No wait character found
+mov $wait_char,"" : mov $tmp2,"" goto *text_print
+
+; Print out text
+*text_print
+if $wait_char != "" add $lang_text,"/" ; To prevent newline
+if $tmp2 = $wait_char mov $tmp2,"" : goto *text_print_final
+if $tmp2 = "" goto *text_print_final
+$lang_text
+; Do appropriate wait
+if $wait_char="@" `@`/
+if $wait_char="\" `\`/
+goto *text_print_after
+
+*text_print_final
+$lang_text
+; Do appropriate wait
+if $wait_char="@" `@`
+if $wait_char="\" `\`
+
+*text_print_after
+if $tmp2 != "" mov $lang_text,$tmp2 : goto *text_loop
+return
+
+; Takes language and text. Set return value based on if language selected.
+*set_if_lang
+getparam %tmp1,$lang_text
+if %current_lang != %tmp1 return
+mov $correct_lang_text,$lang_text
+return
+;  ; ////////////////////
+;  ; // (c) Galladite 2024
+;  ; // For questions, issues, or a copy of the original code, contact: galladite@yandex.com
+;  ; // Multi-Language Patch (Post Script Block end)
+;  ; ////////////////////
