@@ -3,3 +3,6 @@
 *.dat
 *.zip
 *.rar
+*icon/
+*image/
+*wave/

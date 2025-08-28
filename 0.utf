@@ -1,5 +1,13 @@
-;$v-1G200S800,600L10000
+;$v-1G200S640,480L10000
 ;gameid Tsukihime_FR
 
 ; Extension en .UTF pour activer l'UTF-8 et avoir les accents spéciaux français 
 ; ex : éèàô ...
+
+*define
+game
+
+*start
+bg "image/bg/cmo_06b.jpg"
+` Text here\
+exit
