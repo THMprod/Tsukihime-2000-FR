@@ -1,28 +1,28 @@
-# Fichier Initial pour une traduction française de Tsukihime
+# Fichiers Initials pour une traduction française de Tsukihime
 
 ## Consignes générales
 
 Sont contenu ici les scripts originaux de Tsukihime et le scripts de la traductions de Mirror Moon.
 
-Dans les deux cas, l'encodage de ces fichiers est et doit rester le Shift_JIS, si vous devez modifier ses fichiers pour quelconque raisons que ça soit, faites bien attention à son encodage.
+Dans les deux cas, l'encodage de ces fichiers est et doit rester le Shift_JIS, si vous devez modifier ces fichiers pour quelconques raisons que ça soit, faites bien attention à son encodage.
 
-De manière générale, si vous ouvrez les fichiers textes dans le mauvais encodage, les caractères japonais apparaitrons buger, c'est le signe que vous devez changer l'encodage de la lecture du fichier pour Shift_JIS.
+De manière générale, si vous ouvrez les fichiers textes dans le mauvais encodage, les caractères japonais apparaitrons buggés, c'est le signe que vous devez changer l'encodage de la lecture du fichier pour Shift_JIS.
 
 La traduction FR quand à elle doit se faire en UTF_8, par défaut sur les logiciels d'éditions de textes.
 
-Cela pose de léger problème sur le moteur de jeux Onscripter-EN mais qui sont purement esthétique (les menus sont légèrements décalés.)
+Cela pose de légers problèmes sur le moteur de jeux Onscripter-EN mais qui sont purements esthétiques (les menus sont légèrements décalés.)
 
 ## Organisation de la traduction
 
-Il n'y a actuellement aucune organisation sur le sujet, vous pouvez forker ce repo et faire des merge request ou récupérer la traduction peut impore son état pour continuer de votre côté.
+Il n'y a actuellement aucune organisation sur le sujet, vous pouvez forker ce repo et faire des merges request ou récupérer la traduction peut impore son état pour continuer de votre côté.
 
-Le manque d'organisation rend le projet fragile, le fragmenté ne serait pas une bonne idée mais si vous constatez un manque d'engagement ou une perte de vitesse sur ce repo, vous êtes invité à le forker et devenir le nouveau mainteneur de la traduction.
+Le manque d'organisation rend le projet fragile, le fragmenter ne serait pas une bonne idée mais si vous constatez un manque d'engagement ou une perte de vitesse sur ce repo, vous êtes invité à le forker et devenir le nouveau mainteneur de la traduction.
 
 
 Le but final étant d'avoir Tsukihime en français, si vous êtes motivés, aucun soucis à entreprendre ce qu'il faut.
 
 
-La version d'Onscripter utilisé est la "2025-06-08" cela peut voué à évolué si une nouvelle version qui corrige certains défauts (nottemment l'UTF-8)
+La version d'Onscripter-EN utilisé est la "2025-06-08" cela peut être voué à évolué si une nouvelle version qui corrige certains défauts vient à venir (nottamment l'UTF-8)
 
 ## IA et usage
 
