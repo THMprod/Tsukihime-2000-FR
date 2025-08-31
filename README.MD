@@ -22,7 +22,7 @@ Le manque d'organisation rend le projet fragile, le fragmenter ne serait pas une
 Le but final étant d'avoir Tsukihime en français, si vous êtes motivés, aucun soucis à entreprendre ce qu'il faut.
 
 
-La version d'Onscripter-EN utilisé est la "2025-06-08" cela peut être voué à évolué si une nouvelle version qui corrige certains défauts vient à venir (nottamment l'UTF-8)
+La version d'Onscripter-EN utilisé est la ["2025-06-08"](https://github.com/Galladite27/ONScripter-EN/releases/tag/2025-06-08) cela peut être voué à évolué si une nouvelle version qui corrige certains défauts vient à venir (nottamment l'UTF-8)
 
 ## IA et usage
 
@@ -34,8 +34,8 @@ Si vous faites usage d'IA, assurez vous de la pertinence de traduction et/ou du 
 
 ## Copyright
 
-Tsukihime appartient à Type-Moon, bien que l'oeuvre original soit compliqué à obtenir légalement des mains des propriétaires, ce dépot  git ne contient pas plus que les scripts, si vous voulez essayez la traduction, je vous invite à vous procurez une copie du jeu de quelque manière que ça soit. Nous ne sommes pas responsables des conséquence dût à de tels moyens. 
+Tsukihime appartient à Type-Moon, bien que l'oeuvre originale soit compliquée à obtenir légalement des mains des propriétaires, ce dépot git ne contient pas plus que les scripts, si vous voulez essayer la traduction, je vous invite à vous procurer une copie du jeu de quelque manière que ça soit. Nous ne sommes pas responsables des conséquences dût à de tels moyens. 
 
-Cependant ce repo peut contenir des images modifié du jeu original à des fins de localisation.
+Cependant ce repo peut contenir des images modifiées du jeu original à des fins de localisation.
 
-La police utilisait ici est 'Sazami Gothic' si vous désiré la changer, ouvrez une issue sur Github, évitez juste de faire des commits pour cela, le jeu sera testé avec la police proposée et on verra si elle est assez agréable et compatible avec toutes les diacritiques françaises.
+La police utilisé ici est 'Sazami Gothic' si vous désirez la changer, ouvrez une issue sur Github, évitez juste de faire des commits pour cela, le jeu sera testé avec la police proposée et on verra si elle est assez agréable et compatible avec toutes les diacritiques françaises.

@@ -1,7 +1,7 @@
 ;$v-1G200S640,480L10000
 ;gameid Tsukihime_FR
 
-; Ne surtout pas toucher les 2 lignes du haut, elle paramètre des options qui touchent à la sauvegarde du jeu
+; Ne surtout pas toucher les 2 lignes du haut, elles paramètrent des options qui touchent à la sauvegarde du jeu
 ; ainsi que d'autres paramètres d'environnement.
 
 ; Extension en .UTF pour activer l'UTF-8 et avoir les accents spéciaux français 

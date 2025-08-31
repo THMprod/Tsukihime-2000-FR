@@ -16,7 +16,7 @@ Pas besoin d'entrer en contact avec quiconque, une correction sur une coquille d
 
 Si un volontaire souhaite aider à la traduction, il aura besoin de récupérer un des chapitres tels que décris dans le flowchart et le traduire (merci [Mirror-moon](http://mirrormoon.org/) pour ce document).
 
-Si vous traduisez depuis l'anglais, télécharger le [0.txt](EN/0.txt) et depuis votre logiciel de traitement de texte, faite la recherche "*sXX" XX étant le numéro de chapitre tels que décrit dans le flowchart.
+Si vous traduisez depuis l'anglais, télécharger le [0.txt](../EN/0.txt) et depuis votre logiciel de traitement de texte, faite la recherche "*sXX" XX étant le numéro de chapitre tels que décrit dans le flowchart.
 
 Si vous voulez traduire depuis le japonais, étant donné qu'il y a 10 fichiers textes, c'est la même méthode mais il faudra chercher entre les fichiers 1 à 9 (0.txt n'étant qu'un fichier de configuration).
 
