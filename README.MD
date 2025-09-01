@@ -22,7 +22,7 @@ Le manque d'organisation rend le projet fragile, le fragmenter ne serait pas une
 Le but final étant d'avoir Tsukihime en français, si vous êtes motivés, aucun soucis à entreprendre ce qu'il faut.
 
 
-La version d'Onscripter-EN utilisé est la ["2025-06-08"](https://github.com/Galladite27/ONScripter-EN/releases/tag/2025-06-08) cela peut être voué à évolué si une nouvelle version qui corrige certains défauts vient à venir (nottamment l'UTF-8)
+La version d'Onscripter-EN utilisé est la ["2025-06-08"](https://github.com/Galladite27/ONScripter-EN/releases/tag/2025-06-08) cela peut être voué à évoluer si une nouvelle version qui corrige certains défauts vient à venir (nottamment l'UTF-8)
 
 ## IA et usage
 
