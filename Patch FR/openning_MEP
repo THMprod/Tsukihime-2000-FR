@@ -1,0 +1,285 @@
+*openning
+setwindow 18,18, 23,16, 25,25, 0,4, 22, 1, 1,#ffffff, 0,0, 639,479
+windoweffect 1
+;カーソルの表示を行わない
+setcursor 0,":c;icon\0.bmp",0,0
+setcursor 1,":c;icon\0.bmp",0,0
+autoclick 1500
+
+;CD-DA「メインテーマ・ループ」
+play "*9"
+
+br
+br
+br
+br
+br
+br
+br
+`―――――――Soudain、je me suis réveillé.\
+
+br
+br
+br
+br
+br
+`　　　　　　　　　　Il faisait noir dans la pièce.
+`　　　　　　       Personne n'était à la maison.\
+br
+br
+br
+br
+br
+br
+`　　　　　　　     Comme j'avais peur d'être seul,
+`　　　　　      J'ai décidé de sortir dans le jardin.\
+
+; 月（遠い）<クロスフェード(中)>
+bg "image\bg\ima_02.jpg",%type_crossfade_mid
+!w1000
+
+br
+br
+br
+br
+br
+`　　　　　　　Le jardin de la maison était très vaste
+`　　　　　　　    et entouré d'une forêt profode.
+`　　　　　          Les arbres étaient noirs
+`                    comme de gros rideaux.\
+
+
+br
+br
+br
+br
+br
+`               Cela ressemblait à un théâtre...
+`       　　　　Soudain,　ces "rideaux" se sont écartés,
+`　　J'ai eu l'impression que le spectacle allait commencer.\
+
+
+br
+br
+br
+br
+br
+`　　　　　     　 De loin, j'entendais divers bruits.
+`                      Au coeur de la forêt,
+`　             　 Tout le monde s'emblait s'amusait.\
+br
+br
+br
+br
+br
+br
+`　　　　　　　   Mais le rideau n'était toujours pas levé...
+`                   Incapable de m'en tenir éloigné,
+`　                   je suis entré dans la forêt\
+
+; 黒画面<クロスフェード(遅)>
+bg "image\bg\ima_10.jpg",%type_crossfade_slw
+
+
+br
+br
+br
+br
+br
+br
+`　　　　　        Il fait très sombre...
+`　　           　La forêt est si profonde,
+`        que la lumière du soleil n'y parvient pas\
+
+
+br
+br
+br
+br
+br
+`　　　　　　　　　Il fait un froid glacial...
+` Si froid qu'il me donne des fourmillements dans les yeux\
+
+br
+br
+br
+br
+br
+`　　　　　J'ai l'impression que l'on m'appelle par mon nom.
+`  　　　　　　　Alors je continue d'avancer plus loin.\
+br
+br
+br
+br
+br
+`　　　　　　    Après avoir franchi le voile d'arbre,
+`　　　j'arrive sur une grande place au coeur de la forêt.
+`               Là, tout le monde est rassemblé.
+`          Mais ils sont tous vétus de manière étrange.
+`            Tous ont des parties du corps démebrés.
+br
+br
+br
+br
+br
+br
+br
+`               La forêt entière est rouge sang.\
+
+br
+br
+br
+` ───Je ne comprends pas.\
+
+br
+br
+br
+br
+br
+br
+`　Mais quelqu'un vient,
+`　souhaitant me démembrer à mon tour.\
+
+br
+br
+br
+br
+br
+` ───Je ne comprens rien du tout.\
+
+
+br
+br
+br
+br
+br
+br
+`    Mais quelqu'un d'autre que je ne connais pas arrive,
+`　　　　　et se retrouve démembré à ma place.\
+
+br
+br
+br
+br
+br
+br
+br
+` ──Je suis juste un enfant, alors, je ne comprends rien
+\
+
+; 血しぶき（画面いっぱい）<クロスフェード(速)>
+bg "image\bg\ima_13b.jpg",%type_crossfade_fst
+
+br
+br
+br
+br
+br
+　　　　　　　　　びしゃりと。
+　　　　　　暖かいものが顔にかかった。
+　　　　　　　　　　あかい。
+　　　　　　トマトみたいに　あかい水。\
+
+br
+br
+br
+br
+br
+　　　　　　　バラバラになった人。
+　　　　　その　おかあさん　という人は
+　　　それっきりボクの名前を呼ばなくなった。\
+
+br
+br
+br
+br
+br
+br
+br
+br
+br
+―――――ほんとうに　よくわからないけれど。\
+
+br
+br
+br
+br
+br
+br
+　　　　　　　　　ただ寒くて。
+　　　意味もなく　泣いてしまいそうだった。\
+
+
+; 白画面<クロスフェード(速)>
+bg "image\bg\ima_10.jpg",%type_crossfade_slw
+
+br
+br
+br
+br
+br
+br
+　　　　目にあたたかい緋色が混ざってくる。
+　　　　　　眼球の奥に染みこんでくる。
+　　　　　だけどぜんぜん気にならない。
+　　　　夜空には、ただ一人きりの月がある。\
+
+
+; 月（画面いっぱい）<クロスフェード(中)>
+bg "image\bg\ima_01.jpg",%type_crossfade_slw
+
+br
+br
+br
+br
+br
+br
+　　　　　　　　　すごく不思議。
+　　どうしていままで気がつかなったんだろう。\
+
+br
+br
+br
+br
+br
+br
+br
+ ───なんて、ツメタイ───わるい、ユメ。\
+
+
+br
+br
+br
+br
+br
+br
+br
+　　　　　ああ───気がつかなかった。\
+br
+br
+br
+br
+br
+br
+br
+　　　　　　　こんやはこんなにも\
+br
+br
+br
+br
+br
+br
+br
+　つきが、きれい───────だ─────\
+
+;CD-DA停止
+playstop
+
+
+setwindow 18,18, 23,16, 25,25, 0,4, 22, 1, 1,#aaaaaa, 0,0, 639,479
+windoweffect 10,300
+setcursor 0,":l/3,160,2;icon\cursor0.bmp",0,0
+setcursor 1,":l/3,160,2;icon\cursor1.bmp",0,0
+autoclick 0
+
+return
